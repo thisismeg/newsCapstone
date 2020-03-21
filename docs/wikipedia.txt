@@ -3,7 +3,7 @@ This is the documentation for the wikipedia side of the code.
 Prerequisites for Category Tree Search:
 - sklearn
 - nltk
-- search_tree_with_text.json
+- search_tree_with_text.json (in the google drive)
 
 Prerequisites for Category Tree Generator:
 - mwparserfromhell
