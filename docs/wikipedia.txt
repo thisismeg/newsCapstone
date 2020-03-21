@@ -1,0 +1,20 @@
+This is the documentation for the wikipedia side of the code.
+
+Prerequisites for Category Tree Search:
+- sklearn
+- nltk
+- search_tree_with_text.json
+
+Prerequisites for Category Tree Generator:
+- mwparserfromhell
+- category_files directory that contains a list of articles in that category from pywikibot
+- files.json which contains a json file of wikipedia file names to file location
+- the unzipped wikipedia files
+
+
+You can use the CategorySearch.py file to search the wikipedia category tree with a TFIDF vectorizer. It takes a while to train the vectorizer so give it some time.
+
+TODO:
+-Map to specific pages
+-Enable non-sklearn vectorizers
+-Add lemmatization to the NLP pipeline.
